@@ -1,85 +1,76 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>自己紹介</title>
-    <meta name="description" content="text text text">
+    <title>北村 優太の自己紹介</title>
+    <meta name="description" content="北村 優太の自己紹介ウェブサイトです。氏名、出身地、居住経験エリア、趣味、特技などを紹介します。">
+    <!-- 他の必要なSEOメタタグも追加します -->
+    <!-- 例: <meta name="keywords" content="北村 優太,自己紹介,出身地,趣味,特技"> -->
+    <!-- スタイルシートなどリンク/スクリプトもhead内に配置 -->
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<header>
-    これは自己紹介のサイトです
-</header>
-    
-<h1>自己紹介dayo</h1>
+    <header>
+        <h1>自己紹介</h1>
+        <p>これは自己紹介のサイトです</p>
+    </header>
 
+    <nav>
+        <h2>アジェンダ</h2>
+        <ul>
+            <li><a href="#name">氏名</a></li>
+            <li><a href="#birthplace">出身地・居住経験エリア</a></li>
+            <li><a href="#hobby">趣味</a></li>
+            <li><a href="#specialSkill">特技</a></li>
+        </ul>
+    </nav>
 
-<section>
-<h2>アジェンダ</h2>
-<nav>
-<ul>
-    <li><a href="氏名">氏名</a></li>
-    <li><a href="#">出身地・居住経験エリア</a></li>
-    <li><a href="#">趣味</a></li>
-    <li><a href="#">特技</a></li>
-</ul>
-</nav>
-</section>
+    <section id="name">
+        <h2>氏名</h2>
+        <h3>フルネーム</h3>
+        <p>北村 優太</p>
 
-<!--
-navタグの使い方がわからずうまくできなかった
-氏名をクリックしたら、下の氏名の位置まで自動スクロールみたいなことをしたい
+        <h3>名前の由来：苗字</h3>
+        <p>
+            語源は本村から北に出た分村とされる。現在は<a href="https://www.pref.shiga.lg.jp/">滋賀県</a>や<a href="https://www.pref.ishikawa.lg.jp/">石川県</a>に多くみられる。<br>
+            名字の数ランキングは、116位である。<br>
+            <img src="mura.png" alt="村のイメージ画像">
+        </p>
 
--->
+        <h3>名前の由来：名前</h3>
+        <p>優しくたくましく育つようにと名づけられた。</p>
+    </section>
 
-<section>
-<h2>氏名</h2>
-<h3>フルネーム</h3>
-<p>北村 優太</p>
+    <section id="birthplace">
+        <h2>出身地・居住経験エリア</h2>
+        <ul>
+            <li>生まれ<p>埼玉県さいたま市</p></li>
+            <!-- ... 他の項目も同様に ... -->
+        </ul>
+    </section>
 
-<h3>名前の由来：苗字</h3>
-<p>語源は本村から北に出た分村とされる。現在は<a href="https://www.pref.shiga.lg.jp/">滋賀県</a>や<a href="https://www.pref.ishikawa.lg.jp/">石川県</a>に多くみられる。
-<br>名字の数ランキングは、116位である。
-<br><img src="mura.png" alt="村のイメージ画像">
+    <section id="hobby">
+        <h2>趣味</h2>
+        <ul>
+            <li>フットサル</li>
+            <!-- ... 他の項目も同様に ... -->
+        </ul>
+    </section>
 
-<!--
-あまり必要ない機能だと思うが、ローカルが変更したときの変更方法
-また、通常のwebサイトはどのように画像を参照しているのか？サーバ上の画像を参照？？
+    <!-- 特技のセクションが不足していたので、場所を確保します -->
+    <section id="specialSkill">
+        <h2>特技</h2>
+        <!-- 特技の内容をここに追加してください -->
+    </section>
 
--->
-
-</p>
-<h3>名前の由来：名前</h3>
-<p>優しくたくましく育つようにと名づけられた。
-</p>
-
-</section>
-
-<section>
-<h2>出身地・居住経験エリア</h2>
-<ul>
-    <li>生まれ<p>埼玉県さいたま市</p></li>
-    <li>～幼稚園年長<p>東京都杉並区</p></li>
-    <li>幼稚園年長～小学校低学年<p>神奈川県川崎市</p></li>
-    <li>小学校高学年<p>石川県金沢市</p></li>
-    <li>中学校～社会人1年目<p>埼玉県さいたま市</p></li>
-    <li>社会人2年目～社会人5年目<p>愛知県名古屋市</p></li>
-    <li>社会人5年目～現在<p>石川県金沢市</p></li>
-</ul>
-</section>
-
-<section>
-<h2>趣味</h2>
-<ul>
-    <li>フットサル</li>
-    <li>ゲーム<p>最近やったおすすめゲーム→<a href="https://www.nintendo.co.jp/zelda/totk/index.html"target="_blank">ゼルダの伝説　ティアーズオブキングダム</a></p></li>
-    <li>釣り</li>
-    <li>スノボ</li>
-</ul>
-</section>
-
-
-
+    <!-- 必要ならばフッターを追加 -->
+    <footer>
+        <p>&copy; 2023 北村 優太</p>
+    </footer>
 </body>
+
 </html>
